@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+}
+
+.collapsediv {
+  justify-content: flex-end;
+}
+
+.girlimg {
+  background-image: url(/assets/img/slider-1.jpg);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.girl {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.parents {
+  font-size: 40px;
+}
+
+.lorem {
+  font-size: 20px;
+}
+
+.girlimg {
+  display: flex;
+  align-items: center;
+}
+
+.girlp {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 650px;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding-top: 30px;
+  text-align: start;
+}
+
+.adopedbtn {
+  background-color: #BC5148;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 55px;
+  color: white;
+}
+
+.familybtn {
+  border-radius: 7px;
+  border: 2px solid #BC5148;
+  color: #BC5148;
+  width: 170px;
+  height: 55px;
+  background-color: transparent;
+}
+
+.familybtn:hover {
+  background-color: #BC5148;
+  color: white;
+}
+
+.familyimg {
+  max-width: 100%;
+  width: 350px;
+  height: 300px;
+}
+
+.familyDiv {
+  width: 450px;
+}
+
+.familyp {
+  font-size: 16px;
+  font-weight: 400;
+  color: #868e96;
+}
+
+.mydiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imp {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.findmore {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #BC5148;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+}
+
+.subscribebtn {
+  border: none;
+  width: 140px;
+  height: 50px;
+}
+
+.myform {
+  display: flex;
+  width: 350px;
+  height: 50px;
+}
